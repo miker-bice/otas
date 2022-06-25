@@ -29,6 +29,9 @@ class Login extends DBConnection {
 					$this->settings->set_userdata($k,$v);
 				}
 			}
+			// ************************* TO CODE ****************************************
+			// insert sessions
+			// csrf_token insert here
 			$this->settings->set_userdata('login_type',1);
 		return json_encode(array('status'=>'success'));
 		}else{
