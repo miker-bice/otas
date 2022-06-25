@@ -51,7 +51,7 @@
         <?php if($page == "home" || $page == "about_us"): ?>
           <div id="header" class="shadow mb-4">
               <div class="d-flex justify-content-center h-100 w-100 align-items-center flex-column px-3">
-                  <h1 class="w-100 text-center text-navy "><?php echo $_settings->info('name') ?></h1>
+                  <h1 class="w-100 text-center text-navy"><?php echo $_settings->info('name') ?></h1>
                   <a href="./?page=projects" class="btn btn-primary btn-lg rounded my-3" id="enrollment">View Archives</a>
               </div>
           </div>

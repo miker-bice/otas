@@ -61,64 +61,42 @@
     }
   })
 </script>
-<footer class="main-footer text-sm">
-  <div class="container">
-        <strong>Copyright © <?php echo date('Y') ?>. 
-        <!-- <a href=""></a> -->
-        </strong>
-        All rights reserved.
-        <div class="float-right d-none d-sm-inline-block">
-          <b><?php echo $_settings->info('short_name') ?> (by: <a href="mailto:oretnom23@gmail.com" target="blank">oretnom23</a> )</b> v1.0
+<footer class="">
+    <div class="bg-navy text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div id="sp-bottom1" class="col-sm-6 my-3">
+                    <div class="sp-column ">
+                        <div class="sp-module ">
+                            <h4 class="sp-module-title">CCC Connect</h4>
+                            <div class="sp-module-content">
+
+                                <div class="custom">
+                                    <p>Old Municipal Site, Burgos St, Brgy. VII, Poblacion, Calamba City, Laguna, Philippines</p>
+                                    <p>(049) 559 8900</p>
+                                    <p>(02) 8 539 5170</p>
+                                    <p>info@ccc.edu.ph</p>
+                                </div>
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+
+                <div id="sp-bottom1" class="col-sm-6 my-3">
+                    <div class="sp-column text-center">
+                        <div class="ccc-logo text-left">
+                            <h4>City College of Calamba</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </div>
-      </div>
-      </footer>
-
-      <div class="container">
-  <footer class="row row-cols-5 py-5 my-5 border-top">
-    <div class="col">
-      <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      </a>
-      <p class="text-muted">© 2021</p>
     </div>
-
-    <div class="col">
-
-    </div>
-
-    <div class="col">
-      <h5>Section</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-      </ul>
-    </div>
-
-    <div class="col">
-      <h5>Section</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-      </ul>
-    </div>
-
-    <div class="col">
-      <h5>Section</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-      </ul>
-    </div>
-  </footer>
+</footer>
+  
 </div>
     </div>
     <!-- ./wrapper -->

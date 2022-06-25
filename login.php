@@ -16,9 +16,9 @@
       background-size:cover;
       background-repeat:no-repeat;
     }
-    .login-title{
+    /* .login-title{
       text-shadow: 2px 2px black
-    }
+    } */
     /* #login{
       flex-direction:column !important
     } */
@@ -28,13 +28,13 @@
     #login > *{
         direction:ltr
     }
-    #logo-img{
+    /* #logo-img{
         height:150px;
         width:150px;
         object-fit:scale-down;
         object-position:center center;
         border-radius:100%;
-    }
+    } */
     /* #login .col-7,#login .col-5{
       width: 100% !important;
       max-width:unset !important
@@ -49,7 +49,8 @@
     <div class="col-7 h-100 d-flex align-items-center justify-content-center">
       <div class="w-100">
         <center><img src="<?= validate_image($_settings->info('logo')) ?>" alt="" id="logo-img"></center>
-        <h1 class="text-center py-5 login-title"><b><?php echo $_settings->info('name') ?> - Admin</b></h1>
+        <h1 class="text-center text-white"><?php echo $_settings->info('name') ?> - Admin</h1>
+        
       </div>
       
     </div>

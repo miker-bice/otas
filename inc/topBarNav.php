@@ -32,10 +32,10 @@
   }
 </style>
 <!-- this is the top bar -->
-<div class="bg-blue w-100 text-md" id="login-nav">
+<div class="bg-navy w-100 text-md" id="login-nav">
   <div class="d-flex justify-content-between">
     <div>
-      <span class="mr-2  text-white"><?= $_settings->info('contact') ?></span>
+      
     </div>
     <div>
       <?php if ($_settings->userdata('id') > 0) : ?>
