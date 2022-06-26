@@ -32,7 +32,7 @@
   }
 </style>
 <!-- this is the top bar -->
-<div class="bg-navy w-100 text-md" id="login-nav">
+<div class="bg-primary w-100 text-md" id="login-nav">
   <div class="d-flex justify-content-between">
     <div>
       

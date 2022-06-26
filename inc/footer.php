@@ -62,7 +62,7 @@
   })
 </script>
 <footer class="">
-    <div class="bg-navy text-light py-4">
+    <div class="bg-primary text-light py-4">
         <div class="container">
             <div class="row">
                 <div id="sp-bottom1" class="col-sm-6 my-3">
