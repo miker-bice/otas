@@ -41,7 +41,7 @@
       <?php if ($_settings->userdata('id') > 0) : ?>
         <span class="mx-2"><img src="<?= validate_image($_settings->userdata('avatar')) ?>" alt="User Avatar" id="student-img-avatar"></span>
         <span class="mx-2">Hello, <?= !empty($_settings->userdata('email')) ? $_settings->userdata('email') : $_settings->userdata('username') ?></span>
-        <span class="mx-1"><a href="<?= base_url . 'classes/Login.php?f=student_logout' ?>"><i class="fa fa-power-off"></i></a></span>
+        <span class="mx-1"><a href="<?= base_url . 'classes/Login.php?f=student_logout' ?>"><i class="fa fa-power-off text-white"></i></a></span>
       <?php else : ?>
         <a href="./register.php" class="mx-2 text-light me-2">Register</a>
         <a href="./login.php" class="mx-2 text-light me-2">Student Login</a>
