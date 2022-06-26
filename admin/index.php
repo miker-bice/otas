@@ -87,6 +87,21 @@
   </div>
       </div>
       <!-- /.content-wrapper -->
+      <footer class="">
+    <div class="bg-primary text-light py-4">
+        <div class="container">
+
+                    <div class="sp-column text-center">
+                        <div class="ccc-logo text-right">
+                            <h4>City College of Calamba</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+</footer>
       <?php require_once('inc/footer.php') ?>
+
   </body>
 </html>
