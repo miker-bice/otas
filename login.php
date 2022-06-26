@@ -49,8 +49,6 @@
     <div class="col-7 h-100 d-flex align-items-center justify-content-center">
       <div class="w-100">
         <center><img src="<?= validate_image($_settings->info('logo')) ?>" alt="" id="logo-img"></center>
-        <h1 class="text-center text-white"><?php echo $_settings->info('name') ?> - Admin</h1>
-        
       </div>
       
     </div>
@@ -58,7 +56,7 @@
         <div class="w-100 d-flex justify-content-center align-items-center h-100 text-navy">
             <div class="card card-outline card-primary rounded-0 shadow col-lg-10 col-md-10 col-sm-5">
                 <div class="card-header">
-                    <h5 class="card-title text-center text-dark"><b>Login</b></h5>
+                    <h5 class="card-title text-center text-dark"><b>Student Login</b></h5>
                 </div>
                 <div class="card-body">
                     <form action="" id="slogin-form">
@@ -79,7 +77,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="form-group text-right">
-                                    <button class="btn btn-default bg-navy btn-flat"> Login</button>
+                                    <button class="btn btn-primary"> Login</button>
                                 </div>
                             </div>
                         </div>
