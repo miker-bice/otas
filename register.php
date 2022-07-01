@@ -145,9 +145,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="form-group text-right">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <div class="link">
+                                    <a href="<?php echo base_url ?>">Go to Website</a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="text-right">
                                     <button class="btn btn-primary"> Register</button>
                                 </div>
                             </div>
