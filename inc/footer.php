@@ -86,8 +86,8 @@
                 <div id="sp-bottom1" class="col-sm-6 my-3">
                     <div class="sp-column text-center">
                         <div class="ccc-logo text-left">
-                            <h4>City College of Calamba</h4>
-                            
+                            <h5>City College of Calamba</h5>
+                            <img src="<?php echo validate_image($_settings->info('logo'))?>" alt="Store Logo" class="brand">
                         </div>
                     </div>
                 </div>
