@@ -70,8 +70,7 @@
                         <div class="sp-module ">
                             <h4 class="sp-module-title">CCC Connect</h4>
                             <div class="sp-module-content">
-
-                                <div class="custom">
+                                <div class="text-sm">
                                     <p>Old Municipal Site, Burgos St, Brgy. VII, Poblacion, Calamba City, Laguna, Philippines</p>
                                     <p>(049) 559 8900</p>
                                     <p>(02) 8 539 5170</p>
