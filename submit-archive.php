@@ -92,8 +92,8 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="form-group text-center">
-                                <button class="btn btn-default bg-navy btn-flat"> Update</button>
-                                <a href="./?page=profile" class="btn btn-light border btn-flat"> Cancel</a>
+                                <button class="btn btn-primary">Submit</button>
+                                <a href="./?page=profile" class="btn btn-outline-primary">Cancel</a>
                             </div>
                         </div>
                     </div>

@@ -37,8 +37,7 @@
   <div class="h-100 d-flex align-items-center w-100" id="login">
     <div class="col-7 h-100 d-flex align-items-center justify-content-center">
       <div class="w-100">
-        <center><img src="<?= validate_image($_settings->info('logo')) ?>" alt="" id="logo-img"></center>
-        <h1 class="text-center py-5 login-title"><b><?php echo $_settings->info('name') ?> - Admin</b></h1>
+        <center><img src="<?= validate_image($_settings->info('logo')) ?>" alt="" id=""></center>
       </div>
       
     </div>
@@ -46,7 +45,7 @@
       <div class="d-flex w-100 h-100 justify-content-center align-items-center">
         <div class="card col-sm-12 col-md-6 col-lg-3 card-outline card-primary">
           <div class="card-header">
-            <h4 class="text-purle text-center"><b>Login</b></h4>
+            <h4 class="text-purle text-center"><b>Admin Login</b></h4>
           </div>
           <div class="card-body">
             <form id="login-frm" action="" method="post">

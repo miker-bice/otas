@@ -32,7 +32,7 @@
   }
 </style>
 <!-- this is the top bar -->
-<div class="bg-navy w-100 text-md" id="login-nav">
+<div class="bg-primary w-100 text-md" id="login-nav">
   <div class="d-flex justify-content-between">
     <div>
       
@@ -41,7 +41,7 @@
       <?php if ($_settings->userdata('id') > 0) : ?>
         <span class="mx-2"><img src="<?= validate_image($_settings->userdata('avatar')) ?>" alt="User Avatar" id="student-img-avatar"></span>
         <span class="mx-2">Hello, <?= !empty($_settings->userdata('email')) ? $_settings->userdata('email') : $_settings->userdata('username') ?></span>
-        <span class="mx-1"><a href="<?= base_url . 'classes/Login.php?f=student_logout' ?>"><i class="fa fa-power-off"></i></a></span>
+        <span class="mx-1"><a href="<?= base_url . 'classes/Login.php?f=student_logout' ?>"><i class="fa fa-power-off text-white"></i></a></span>
       <?php else : ?>
         <a href="./register.php" class="mx-2 text-light me-2">Register</a>
         <a href="./login.php" class="mx-2 text-light me-2">Student Login</a>
@@ -58,8 +58,8 @@
 
   <div class="container">
     <a href="./" class="navbar-brand">
-      <!-- <img src="<?php echo validate_image($_settings->info('logo')) ?>" alt="Site Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
-      <span><?= $_settings->info('short_name') ?></span>
+      <img src="<?php echo validate_image($_settings->info('logo')) ?>" alt="Site Logo" class="img-fluid" width="40">
+      <!-- <span><?= $_settings->info('short_name') ?></span> -->
     </a>
 
     <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
