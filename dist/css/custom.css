@@ -5,6 +5,10 @@
     --bg-gradient2: radial-gradient(circle, rgba(47, 29, 19, 1) 35%, rgba(79, 51, 19, 1) 66%, rgba(51, 34, 19, 1) 96%);
 }
 
+body {
+    overflow: hidden;
+}
+
 .dark-mode.text-light .modal * {
     color: var(--light);
 }

@@ -93,7 +93,7 @@
         <div class="container">
                     <div class="sp-column text-center">
                         <div class="ccc-logo text-right">
-                            <h4>City College of Calamba</h4>           
+                            <h4 class="text-md">City College of Calamba</h4>           
                         </div>
                     </div>
                 </div>
@@ -103,4 +103,12 @@
       <?php require_once('inc/footer.php') ?>
 
   </body>
+
+
+
+  <script>
+    // hide main footer
+    const myFooter = document.querySelector(".main-footer");
+    myFooter.style.display = 'none';
+  </script>
 </html>
