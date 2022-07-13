@@ -94,7 +94,7 @@
       </ul>
       </li>
       <li class="nav-item dropdown">
-        <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle  <?= isset($page) && $page == 'projects_per_curriculum' ? "active" : "" ?>">Courses</a>
+        <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle  <?= isset($page) && $page == 'projects_per_curriculum' ? "active" : "" ?>">Programs</a>
         <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
           <?php
           $curriculums = $conn->query("SELECT * FROM curriculum_list where status = 1 order by `name` asc");

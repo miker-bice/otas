@@ -21,7 +21,7 @@
         <div class="info-box bg-light shadow">
             <span class="info-box-icon bg-gradient-dark elevation-1"><i class="fas fa-scroll"></i></span>
             <div class="info-box-content">
-            <span class="info-box-text">Curriculum List</span>
+            <span class="info-box-text">Program List</span>
             <span class="info-box-number text-right">
                 <?php 
                     echo $conn->query("SELECT * FROM `curriculum_list` where `status` = 1")->num_rows;
