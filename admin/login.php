@@ -1,5 +1,4 @@
 <?php require_once('../config.php') ?>
-<!DOCTYPE html>
 <html lang="en" class="" style="height: auto;">
  <?php require_once('inc/header.php') ?>
 <body class="hold-transition ">
@@ -37,7 +36,7 @@
   <div class="h-100 d-flex align-items-center w-100" id="login">
     <div class="col-7 h-100 d-flex align-items-center justify-content-center">
       <div class="w-100">
-        <center><img src="<?= validate_image($_settings->info('logo')) ?>" alt="" id=""></center>
+        <!-- <center><img src="<?= validate_image($_settings->info('logo')) ?>" alt="" id=""></center> -->
       </div>
       
     </div>

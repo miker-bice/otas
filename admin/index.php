@@ -1,5 +1,5 @@
 <?php require_once('../config.php'); ?>
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" class="" style="height: auto;">
 <?php require_once('inc/header.php') ?>
   <body class="sidebar-mini layout-fixed control-sidebar-slide-open layout-navbar-fixed sidebar-mini-md sidebar-mini-xs" data-new-gr-c-s-check-loaded="14.991.0" data-gr-ext-installed="" style="height: auto;">
@@ -87,19 +87,7 @@
   </div>
       </div>
       <!-- /.content-wrapper -->
-      
-      <footer class="">
-    <div class="bg-primary text-light py-4">
-        <div class="container">
-                    <div class="sp-column text-center">
-                        <div class="ccc-logo text-right">
-                            <h4 class="text-md">City College of Calamba</h4>           
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-</footer>
+    
       <?php require_once('inc/footer.php') ?>
 
   </body>
@@ -108,7 +96,7 @@
 
   <script>
     // hide main footer
-    const myFooter = document.querySelector(".main-footer");
-    myFooter.style.display = 'none';
+    // const myFooter = document.querySelector(".main-footer");
+    // myFooter.style.display = 'none';
   </script>
 </html>
